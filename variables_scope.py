@@ -60,3 +60,6 @@ best_song_of_the_band()
 
 # 4. Built-in Scope: the widest scope in any language that has all the reserved words in the language. It can be accessed any where in te code.
 print(True, False, int, float, str)
+
+# References:
+# 1. https://www.datacamp.com/community/tutorials/scope-of-variables-python
