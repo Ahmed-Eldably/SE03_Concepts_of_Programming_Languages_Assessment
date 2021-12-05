@@ -1,5 +1,3 @@
-import py4j
-from variables_scope import pink_floyd_best_album
 """
 Type systems: Progrmming languages have a type system that formalizes which categories of objects it can work with and how these catagories are treated.
 """
@@ -46,3 +44,19 @@ class PinkFloydAlbums:
 pink_floyd_albums = PinkFloydAlbums()
 print(pink_floyd_albums)
 print(len(pink_floyd_albums))
+
+"""
+Gradual Typing
+- A.k.a. optional static typing.
+- Best of both worlds  (?)
+    - some code can be dynamically typed.
+    - some code can statically typed.
+- A path to static typing for a large dynamic code base.
+    - gradually introduce typing.
+    - start wit most commonly used modules.
+- Also known from e.g. TypeScript (JS) and Hack (PHP)
+"""
+def len_albums_for_band(total_number_of_albums: str, band_name: str) -> str:
+    return band_name + " has made " + total_number_of_albums + " albums."
+
+print(len_albums_for_band(15, "Pink Floyd"))
