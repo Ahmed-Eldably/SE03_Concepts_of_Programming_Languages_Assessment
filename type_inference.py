@@ -11,3 +11,5 @@ led_zeppelin_records_sold = 111.5
 pink_floyd_records_sold = 250
 
 print(sum(led_zeppelin_records_sold, pink_floyd_records_sold))
+
+# References: https://www3.cs.stonybrook.edu/~cse304/Fall09/Lectures/types-handout.pdf
