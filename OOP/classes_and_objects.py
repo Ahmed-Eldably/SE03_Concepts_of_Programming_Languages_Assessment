@@ -51,7 +51,7 @@ class Album(object):
         self.band_name = band_name
         self.album_name = album_name
         
-    # Getters
+    # getters
     def get_songs_names(self):
         return list(music_list[self.band_name]["albums"][self.album_name]["songs"].keys())
 
